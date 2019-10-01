@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>WebSocket Tester</title>
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body>
+      <input type="text" placeholder="wss://example.com" id="websocket_url" value="wss://gateway.discord.gg/">
+      <button id="websocket_connect" onclick="connect()">Connect</button>
+
+      <div class="log">
+        <pre><code id="code_console"></code></pre>
+      </div>
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+    <script src="socket.js"></script>
+  </body>
+</html>

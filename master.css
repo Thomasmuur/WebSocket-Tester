@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#websocket_url {
+  width: 90%;
+  padding: 5px;
+  float: left;
+  height: 30px;
+}
+
+#websocket_connect {
+  width: 10%;
+  float: left;
+  height: 30px;
+}
+
+.log {
+  background-color: black;
+  height: calc(100% - 60px);
+  width: 100%;
+  position: absolute;
+  top: 30px;
+  padding: 0;
+}
+
+pre code {
+  font: 11pt/1.25 Monaco, monospace;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.debug { color: Snow; }
+.info  { color: LawnGreen; }
+.warn  { color: GoldenRod; }
+.error { color: LightCoral; }
